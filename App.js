@@ -4,10 +4,14 @@ import { Provider } from 'react-redux';
 
 export default function App() {
   return (
-  <Provider store={}>
+  <Provider store={store}>
     <View style={styles.container}>
-      <Text>oktay</Text>
-      <StatusBar style="auto" />
+     <image 
+      source={{
+        uri: "https://links.papareact.com/gzs",
+      }}
+      style={styles.logo}
+     />
     </View>
   </Provider>
   );
